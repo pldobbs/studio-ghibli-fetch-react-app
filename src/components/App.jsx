@@ -5,11 +5,9 @@ import Films from './Films';
 export default class App extends Component {
     render() {
         return (
-            <div className="container">
+            <div className="container-fluid">
                 <Jumbotron />
-                <div className="container">
-                    <Films />
-                </div>
+                <Films />
             </div>
         )
     }

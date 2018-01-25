@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class CardMaker extends Component {
+export default class Card extends Component {
     render() {
         console.log(this.props.film);
         let film = this.props.film.map((film) => {

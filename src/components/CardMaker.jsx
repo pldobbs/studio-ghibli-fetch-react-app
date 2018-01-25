@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 export default class CardMaker extends Component {
     render() {
+        console.log(this.props.film);
         let film = this.props.film.map((film) => {
             return (
                 <div className="card col-6" style={{ width: '20rem' }} key={film.id}>

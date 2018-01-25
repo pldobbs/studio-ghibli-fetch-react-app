@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Card from './CardMaker';
+import Card from './Card';
 
 export default class Films extends Component {
     constructor(props) {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CardMaker from './CardMaker';
+import Card from './CardMaker';
 
 export default class Films extends Component {
     constructor(props) {
@@ -21,7 +21,7 @@ export default class Films extends Component {
     render() {
         return (
             <div className="container">
-                <CardMaker film={this.state.films} />
+                <Card film={this.state.films} />
             </div>
         )
     }
